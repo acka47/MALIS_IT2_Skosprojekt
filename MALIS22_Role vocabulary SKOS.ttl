@@ -1,0 +1,66 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix joconde: <http://data.culture.fr/thesaurus/resource/ark:/> .
+@prefix wikidata: <https://www.wikidata.org/wiki/> .
+@base <http://example.org/MUSEONETVocab/>.
+
+#Da das Vokabular noch nicht auf einer öffentlich zugänglichen Plattform zu finden ist wird hier das example Domain verwendet.
+#Sobald das Vokabular veröffentlicht wird, soll dieses durch die tatsächliche URI ersetzt werden.
+<Role>
+    a skos:ConceptScheme ;
+    skos:prefLabel "MUSEONET Role Vocabulary" .
+    skos:hasTopConcept <Role/30472>
+
+<Role/30472>
+    a skos:Concept ;
+    skos:inScheme <Role> ; 
+    skos:prefLabel 
+        "Rôle"@fr, 
+        "Rolle"@de, 
+        "Role"@en ;
+    skos:narrower <Role/172121>
+    skos:editorialNote "Die in diesem Vokabular integrierten Begriffe beziehen sich auf die Rolle, die ein Akteur in Beziehung zu einem Objekt gehabt hat. Nicht allgemein um z.B. Aktivitäten, die ein Akteur wärend seiner Existenz ausgeführt hat."@de .
+
+<Role/172121>
+    a skos:Concept ;
+    skos:inScheme <Role> ; 
+    skos:broader <Role/30472> ;
+    skos:narrower <Role/172157> ;
+    skos:prefLabel 
+        "Archéologue"@fr, 
+        "Archäologe*in"@de, 
+        "Archaeologist"@en ;
+    skos:exactMatch joconde:<67717/?idc=T513-35707&idt=th80> ;
+    #Hier wurde closeMatch statt exactMatch ausgewählt, da der Begriff bei Wikidata als instance of profession (Beruf) verstanden wird, nicht als Rolle in Bezug auf ein Ojekt.
+    skos:closeMatch wikidata:<Q3621491> ;
+    skos:definition 
+        "Personne en relation avec la trouvaille d'un objet"@fr, 
+        "Person, die in Beziehung zu dem Fund eines Objektes steht"@de, 
+        "Person in relation to the finding of an objekt"@en .
+
+<Role/172157>
+    a skos:Concept ;
+    skos:inScheme <Role> ; 
+    skos:broader <Role/30472>, <Role/172121> ;
+    skos:prefLabel "Dirigeant.e de fouille"@fr, "Ausgrabungsleiter_in"@de, "Dig leader"@en .
+
+<Role/172122>
+    a skos:Concept ;
+    skos:inScheme <Role> ; 
+    skos:broader <Role/30472> ;
+    skos:prefLabel "Architecte"@fr, "Architekt_in"@de, "Architect"@en ;
+    skos:exactMatch joconde:<67717/?idc=T513-32793&idt=th80> ;
+    skos:closeMatch wikidata:<Q42973> .
+
+<Role/245186>
+    a skos:Concept ;
+    skos:inScheme <Role> ; 
+    skos:broader <Role/30472> ;
+    skos:prefLabel "Armurier"@fr, "Waffenschmied_in"@de, "Armourer"@en ;
+    skos:altLabel "Armorer"@en ;
+    skos:exactMatch joconde:<67717/?idc=T513-32796&idt=th80>
+    skos:closeMatch wikidata:<Q1371796> .
+
+
+
+
