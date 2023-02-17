@@ -4,7 +4,7 @@
 @prefix wikidata: <https://www.wikidata.org/wiki/> .
 @base <http://example.org/MUSEONETVocab/>.
 
-#Da das Vokabular noch nicht auf einer öffentlich zugänglichen Plattform zu finden ist wird hier das example Domain verwendet.
+#Da das Vokabular noch nicht auf einer öffentlich zugänglichen Plattform existiert wird hier das example Domain verwendet.
 #Sobald das Vokabular veröffentlicht wird, soll dieses durch die tatsächliche URI ersetzt werden.
 <Role>
     a skos:ConceptScheme ;
