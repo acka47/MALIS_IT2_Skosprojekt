@@ -8,8 +8,8 @@
 #Sobald das Vokabular veröffentlicht wird, soll dieses durch die tatsächliche URI ersetzt werden.
 <Role>
     a skos:ConceptScheme ;
-    skos:prefLabel "MUSEONET Role Vocabulary" .
-    skos:hasTopConcept <Role/30472>
+    skos:prefLabel "MUSEONET Role Vocabulary" ;
+    skos:hasTopConcept <Role/30472> .
 
 <Role/30472>
     a skos:Concept ;
@@ -18,7 +18,7 @@
         "Rôle"@fr, 
         "Rolle"@de, 
         "Role"@en ;
-    skos:narrower <Role/172121>
+    skos:narrower <Role/172121> 
     skos:editorialNote "Die in diesem Vokabular integrierten Begriffe beziehen sich auf die Rolle, die ein Akteur in Beziehung zu einem Objekt gehabt hat. Nicht allgemein um z.B. Aktivitäten, die ein Akteur wärend seiner Existenz ausgeführt hat."@de .
 
 <Role/172121>
