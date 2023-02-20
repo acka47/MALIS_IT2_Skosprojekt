@@ -31,12 +31,12 @@
         "Archäologe*in"@de, 
         "Archaeologist"@en ;
     skos:exactMatch joconde:<67717/?idc=T513-35707&idt=th80> ;
-    #Hier wurde closeMatch statt exactMatch ausgewählt, da der Begriff bei Wikidata als instance of profession (Beruf) verstanden wird, nicht als Rolle in Bezug auf ein Ojekt.
+    #Hier wurde closeMatch statt exactMatch ausgewählt, da der Begriff bei Wikidata als instance of profession (Beruf) verstanden wird, nicht als Rolle in Bezug auf ein Objekt.
     skos:closeMatch wikidata:<Q3621491> ;
     skos:definition 
         "Personne en relation avec la trouvaille d'un objet"@fr, 
         "Person, die in Beziehung zu dem Fund eines Objektes steht"@de, 
-        "Person in relation to the finding of an objekt"@en .
+        "Person in relation to the finding of an object"@en .
 
 <Role/172157>
     a skos:Concept ;
@@ -81,7 +81,77 @@
         "Artiste"@fr, 
         "Künstler_in"@de, 
         "Artist"@en ;
+    skos:closeMatch wikidate:<Q15296811> .
 
+<Role/172141>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role172415> ;
+    skos:prefLabel
+        "Dessinateur*ice"@fr,
+        "Zeichner*in"@de,
+        "Draughtsperson"@en ;
+    skos:closeMatch wikidata:<Q15296811> .
+
+<Role/172241>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role/172415> ;
+    skos:prefLabel
+        "Peintre"@fr,
+        "Maler*in"@de,
+        "Painter"@en ;
+    skos:closeMatch wikidata:<Q1028181> .
+
+<Role/172274>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role/30472> ;
+    skos:prefLabel
+        "Sculpteur*ice"@fr,
+        "Bildhauer*in"@de,
+        "Sculptor"@en .
+
+<Role/255869>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role/30472> ;
+    skos:prefLabel
+        "Atelier monétaire"@fr,
+        "Münzwerkstatt"@de,
+        "Mint"@en ;
+    skos:closeMatch wikidata:<Q464780> .
+
+<Role/172128>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role/30472> ;
+    skos:prefLabel
+        "Auteur*ice"@fr,
+        "Autor*in"@de,
+        "Author"@en ;
+    skos:closeMatch wikidata:<Q482980> .
+
+<Role/218999>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role/30472> ;
+    skos:prefLabel
+        "Autorité émettrice"@fr,
+        "Ausstellende Einheit"@de,
+        "Issuing authority"@en .
+
+<Role/254902>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role/30472> ;
+    skos:prefLabel
+        "Brodeur*se"@fr,
+        "Sticker*in"@de,
+        "Embroiderer"@en ;
+    skos:closeMatch wikidata:<Q1509440> .
+  
+        
 
 
 
