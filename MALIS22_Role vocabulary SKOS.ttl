@@ -150,9 +150,63 @@
         "Sticker*in"@de,
         "Embroiderer"@en ;
     skos:closeMatch wikidata:<Q1509440> .
+
+<Role/172131>
+     a skos:Concept ;
+     skos:inScheme <Role> ;
+     skos:broader <Role/30472> ;
+     skos:prefLabel
+         "Cartographe"@fr,
+         "Kartograph*in"@de,
+         "Cartographer"@en ;
+     skos:closeMatch wikidata:<Q1734662> .
+
+<Role/214980>
+     a skos:Concept ;
+     skos:inScheme <Role> ;
+     skos:broader <Role/30472> ;
+     skos:prefLabel
+         "Commandataire*rice"@fr,
+         "Auftraggeber*in"@de,
+         "Contracting authority"@en ;
+     skos:closeMatch wikidata:<Property:P88> .
+
+<Role/253201>
+     a skos:Concept ;
+     skos:inScheme <Role> ;
+     skos:broader <Role/30472> ;
+     skos:prefLabel
+         "Compositeur*rice"@fr,
+         "Komponist*in"@de,
+         "Composer"@en ;
+     skos:closeMatch wikidata:<Q36834> .
   
-        
+<Role/248039>
+     a skos:Concept ;
+     skos:inScheme <Role> ;
+     skos:broader <Role/30472> ;
+     skos:prefLabel
+         "Confiseur*se"@fr,
+         "Zuckerbäcker*in"@de,
+         "Confectioner"@en ;
+     skos:closeMatch wikidata:<Q2992505> .
 
+<Role/236429>
+     a skos:Concept ;
+     skos:inScheme <Role> ;
+     skos:broader <Role/30472> ;
+     skos:prefLabel
+         "Décorateur*rice"@fr,
+         "Dekorateur*in"@de,
+         "Decorator"@en ;
+     skos:closeMatch wikidata:<Q22811707> .
 
-
-
+<Role/172140>
+     a skos:Concept ;
+     skos:inScheme <Role> ;
+     skos:broader <Role/30472> ;
+     skos:prefLabel
+         "Designer"@fr,
+         "Entwerfer*in"@de,
+         "Designer"@en ;
+     skos:closeMatch wikidata:<Q5322166> .
