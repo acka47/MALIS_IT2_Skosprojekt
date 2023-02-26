@@ -8,7 +8,7 @@
 
 Leitfragen aus Aufgabenstellung:
 Zusammenarbeit auf Github - Wie hat es funktioniert? Was wurde gelernt? Wo sind noch Probleme?
-Die Zusammenarbeit auf Github lief reibungslos. Im Projektteam waren sehr unterschiedliche Vorkenntnisse vorhanden, dennoch gelang der Einstieg und die ersten Schritte in Github allen Beteiligten. Für die Kommunikation wurde zoom sowie ein Messenger genutzt. Ein Kanban-Board kam nicht zum Einsatz. Durch die Umsetzung des SKOS-Vokabulars wurde ein Grundverständnis für linked open data und den Nutzen kontrollierter Vokabulare für die Auffindbarkeit und Verbindung von Daten erlangt. Durch die praktische Anwendung wurden vertiefende Kenntnisse zum Aufbau von RDF und SKOS sowie die Anwendungsgebiete erworben. 
+Die Zusammenarbeit auf Github lief reibungslos. Im Projektteam waren sehr unterschiedliche Vorkenntnisse vorhanden, dennoch gelang der Einstieg und die ersten Schritte in Github allen Beteiligten. Für die Kommunikation wurde zoom sowie ein Messenger genutzt. Ein Kanban-Board kam nicht zum Einsatz. Durch die Umsetzung des SKOS-Vokabulars wurde zudem ein Grundverständnis für linked open data und den Nutzen kontrollierter Vokabulare für die Auffindbarkeit und Verbindung von Daten erlangt. Durch diese praktische Anwendung wurden vertiefende Kenntnisse zum Aufbau von RDF und SKOS sowie die Anwendungsgebiete erworben. 
 Probleme beim Einrichten des Repos? (Wie kann die Dokumentation verbessert werden?)
 Verständnis von RDF und SKOS vor und nach der Bearbeitung?
 Was wird durch die SKOS-Repräsentation des Vokabulars und seiner Publikation im Web gewonnen?
