@@ -81,14 +81,14 @@
         "Artiste"@fr, 
         "Künstler*in"@de, 
         "Artist"@en ;
-    skos:closeMatch wikidate:<Q15296811> .
+    skos:closeMatch wikidata:<Q15296811> .
 
 <Role/172141>
     a skos:Concept ;
     skos:inScheme <Role> ;
     skos:broader <Role172415> ;
     skos:prefLabel
-        "Dessinateur*ice"@fr,
+        "Dessinateur.rice"@fr,
         "Zeichner*in"@de,
         "Draughtsperson"@en ;
     skos:closeMatch wikidata:<Q15296811> .
@@ -108,7 +108,7 @@
     skos:inScheme <Role> ;
     skos:broader <Role/30472> ;
     skos:prefLabel
-        "Sculpteur*ice"@fr,
+        "Sculpteur.rice"@fr,
         "Bildhauer*in"@de,
         "Sculptor"@en .
 
@@ -127,7 +127,7 @@
     skos:inScheme <Role> ;
     skos:broader <Role/30472> ;
     skos:prefLabel
-        "Auteur*ice"@fr,
+        "Auteur.rice"@fr,
         "Autor*in"@de,
         "Author"@en ;
     skos:closeMatch wikidata:<Q482980> .
@@ -146,7 +146,7 @@
     skos:inScheme <Role> ;
     skos:broader <Role/30472> ;
     skos:prefLabel
-        "Brodeur*se"@fr,
+        "Brodeur.euse"@fr,
         "Sticker*in"@de,
         "Embroiderer"@en ;
     skos:closeMatch wikidata:<Q1509440> .
@@ -166,7 +166,7 @@
      skos:inScheme <Role> ;
      skos:broader <Role/30472> ;
      skos:prefLabel
-         "Commandataire*rice"@fr,
+         "Commandataire.rice"@fr,
          "Auftraggeber*in"@de,
          "Contracting authority"@en ;
      skos:closeMatch wikidata:<Property:P88> .
@@ -176,7 +176,7 @@
      skos:inScheme <Role> ;
      skos:broader <Role/30472> ;
      skos:prefLabel
-         "Compositeur*rice"@fr,
+         "Compositeur.rice"@fr,
          "Komponist*in"@de,
          "Composer"@en ;
      skos:closeMatch wikidata:<Q36834> .
@@ -186,7 +186,7 @@
      skos:inScheme <Role> ;
      skos:broader <Role/30472> ;
      skos:prefLabel
-         "Confiseur*se"@fr,
+         "Confiseur.se"@fr,
          "Zuckerbäcker*in"@de,
          "Confectioner"@en ;
      skos:closeMatch wikidata:<Q2992505> .
@@ -196,7 +196,7 @@
      skos:inScheme <Role> ;
      skos:broader <Role/30472> ;
      skos:prefLabel
-         "Décorateur*rice"@fr,
+         "Décorateur.rice"@fr,
          "Dekorateur*in"@de,
          "Decorator"@en ;
      skos:closeMatch wikidata:<Q22811707> .
