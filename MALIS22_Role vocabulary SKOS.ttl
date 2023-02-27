@@ -44,7 +44,7 @@
     skos:broader <Role/172121> ;
     skos:prefLabel 
         "Dirigeant.e de fouille"@fr, 
-        "Ausgrabungsleiter_in"@de, 
+        "Ausgrabungsleiter*in"@de, 
         "Dig leader"@en .
 
 <Role/172122>
@@ -53,7 +53,7 @@
     skos:broader <Role/30472> ;
     skos:prefLabel 
         "Architecte"@fr, 
-        "Architekt_in"@de, 
+        "Architekt*in"@de, 
         "Architect"@en ;
     skos:exactMatch joconde:<67717/?idc=T513-32793&idt=th80> ;
     skos:closeMatch wikidata:<Q42973> .
@@ -64,7 +64,7 @@
     skos:broader <Role/30472> ;
     skos:prefLabel 
         "Armurier"@fr, 
-        "Waffenschmied_in"@de, 
+        "Waffenschmied*in"@de, 
         "Armourer"@en ;
     skos:altLabel "Armorer"@en ;
     skos:exactMatch joconde:<67717/?idc=T513-32796&idt=th80>
@@ -79,7 +79,7 @@
         <Role/172241> ;
     skos:prefLabel 
         "Artiste"@fr, 
-        "Künstler_in"@de, 
+        "Künstler*in"@de, 
         "Artist"@en ;
     skos:closeMatch wikidate:<Q15296811> .
 
