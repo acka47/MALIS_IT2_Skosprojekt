@@ -13,15 +13,15 @@ Das ausgewählte Vokabular soll dazu dienen die Rollen von Personen im Zusammenh
 
 ##Probleme beim Einrichten des Repos? (Wie kann die Dokumentation verbessert werden?
 ##Verständnis von RDF und SKOS vor und nach der Bearbeitung?
-<p>Vor Bearbeitung der Aufgabe nur wenig Kenntnisse im Bereich Linked open data, Kenntnisse von RDF und SKOS waren nicht vorhanden. Durch die Umsetzung des SKOS-Vokabulars wurde ein Grundverständnis für linked open data und den Nutzen kontrollierter Vokabulare für die Auffindbarkeit und Verbindung von Daten erlangt. Die praktische Anwendung ermöglichte eine intensive Auseinandersetzung mit dem Aufbau und den Anwendungsgebieten von RDF und SKOS.
-Was wird durch die SKOS-Repräsentation des Vokabulars und seiner Publikation im Web gewonnen?
-Welche Anwendungsfälle gibt es?</p>
+<p>Vor Bearbeitung der Aufgabe nur wenig Kenntnisse im Bereich Linked open data, Kenntnisse von RDF und SKOS waren nicht vorhanden. Durch die Umsetzung des SKOS-Vokabulars wurde ein Grundverständnis für linked open data und den Nutzen kontrollierter Vokabulare für die Auffindbarkeit und Verbindung von Daten erlangt. Die praktische Anwendung ermöglichte eine intensive Auseinandersetzung mit dem Aufbau und den Anwendungsgebieten von RDF und SKOS.</p>
+<p>##Was wird durch die SKOS-Repräsentation des Vokabulars und seiner Publikation im Web gewonnen?</p>
+<p>##Welche Anwendungsfälle gibt es?</p>
 
 <p>Im Verlauf des Projektes traten zwei Themen in den Vordergrund: **Lösungen für eine geschlechtergerechte Gestaltung des Vokabulars** sowie die **Einbindung von mit übersetzbaren Begriffen**. </p>
 <p>Die geschlechtergerechte Gestaltung von Prozessen ist ein Ziel der EU und soll durchgehend Anwendung finden. Während die geschlechtergerechte Sprache im Englischen kein Thema ist, wird es sowohl für Deutsch als auch für Französisch teilweise sehr kontrovers diskutiert. Während in Frankreich das schriftliche Gendern nicht erlaubt ist, wird es in Deutschland von der Regierung befürwortet und in Behörden etc. gebraucht. Das Gendern von Informationen, vor allem strukturierter Vokabulare wird ebenfalls diskutiert. Aktuell ist die weibliche oder genderneutrale Form in der Regel der männlichen Form untergeordnet bzw. beigeordnet z.B. über „also known as“ bei wikidata. Im Projekt bearbeiteten Vokabular wurde die gegenderte Form mit Sternchen als String eingebunden. Eine mögliche Lösung, welche die Gleichwertigkeit von Bezeichnungen schon innerhalb des Vokabulars ausdrückt, wäre eine einzelne Aufführung aller Formen mit einem zusätzlichen Tagging, welches das Geschlecht benennt.</p> 
 <p>Beispiel:</p>
 
-<Role/172141>
+<p><Role/172141>
     a skos:Concept ;
     skos:inScheme <Role> ;
     skos:broader <Role172415> ;
@@ -31,7 +31,7 @@ Welche Anwendungsfälle gibt es?</p>
         "Zeichner"@de,@mask
         "Zeichnerin"@de,@fem
         "Draughtsperson"@en ;
-    skos:closeMatch wikidata:<Q15296811> .
+    skos:closeMatch wikidata:<Q15296811> .<p>
 
 <p>Eine neutrale Variante wäre hier ebenfalls denkbar. 
 Eine solche Lösung würde zwar einen größeren Aufwand bedeuten, dafür aber auch bessere Suchmöglichkeiten bieten, da auch weibliche Formen ohne Umweg gefunden werden. Ein Vorteil, wenn davon ausgegangen wird, dass in Zukunft auch die weiblichen Formen häufiger gesucht werden.
