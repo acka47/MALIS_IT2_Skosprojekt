@@ -17,5 +17,23 @@ Vor Bearbeitung der Aufgabe nur wenig Kenntnisse im Bereich Linked open data, Ke
 Was wird durch die SKOS-Repräsentation des Vokabulars und seiner Publikation im Web gewonnen?
 Welche Anwendungsfälle gibt es?
 
-Zudem eigene Themen: geschlechtergerechte Gestaltung des Vokabulars, Einbindung von nicht übersetzbaren Begriffen
+Im Verlauf des Projektes traten zwei Themen in den Vordergrund: Lösungen für eine geschlechtergerechte Gestaltung des Vokabulars sowie die Einbindung von mit übersetzbaren Begriffen.
+Die geschlechtergerechte Gestaltung von Prozessen ist ein Ziel der EU und soll durchgehend Anwendung finden. Während die geschlechtergerechte Sprache im Englischen kein Thema ist, wird es sowohl für Deutsch als auch für Französisch teilweise sehr kontrovers diskutiert. Während in Frankreich das schriftliche Gendern nicht erlaubt ist, wird es in Deutschland von der Regierung befürwortet und in Behörden etc. gebraucht. Das Gendern von Informationen, vor allem strukturierter Vokabulare wird auch diskutiert. Aktuell ist die weibliche oder genderneutrale Form in der Regel der männlichen Form untergeordnet bzw. beigeordnet über „also known as“ bei wikidata. Im vorliegenden Vokabular wurde die gegenderte Form mit Sternchen als String verwendet. Eine mögliche Lösung, welche die Gleichwertigkeit von Bezeichnungen schon innerhalb des Vokabulars ausdrückt, wäre eine einzelne Aufführung aller Formen mit einem zusätzlichen Tagging, welches das Geschlecht benennt. Beispiel:
+
+<Role/172141>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role172415> ;
+    skos:prefLabel
+        "Dessinateur"@fr,@mask
+        "Dessinateurice"@fr,@fem
+        "Zeichner"@de,@mask
+        "Zeichnerin"@de,@fem
+        "Draughtsperson"@en ;
+    skos:closeMatch wikidata:<Q15296811> .
+
+Eine neutrale Variante wäre hier ebenfalls denkbar. 
+Eine solche Lösung würde zwar einen größeren Aufwand bedeuten, dafür aber auch bessere Suchmöglichkeiten bieten, da auch weibliche Formen ohne Umweg gefunden werden. Ein Vorteil, wenn davon ausgegangen wird, dass in Zukunft auch die weiblichen Formen häufiger gesucht werden.
+Eine solche Änderungen in der Struktur müssten aber für alle Nutzenden beschlossen werden, da über die Vernetzung der Vokabulare einer einheitlichen Struktur folgen müssen, um Interoperabilität zu gewährleisten. Durch die sehr unterschiedlichen Ansätze in Umgang mit weiblichen, männlichen und geschlechtsneutralen Begriffen in Deutschland, Frankreich und England, ist eine solche Lösung zeitnah nicht zu erwarten. Der Diskurs zur geschlechtergerechten Sprache, ihre Möglichkeiten und Grenzen, ist noch lange nicht abgeschlossen und wird auch Auswirkungen auf die Gestaltung von datenbasierten Prozessen nehmen.
+
 
