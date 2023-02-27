@@ -7,13 +7,17 @@
 <p>Dieses Projekt war eine ideale Gelegenheit erste Erfahrungen mit der Publikation von Vokabularen in Form von Linked open data zu sammeln und notwendige nächste Schritte zu definieren. Das hier ausgewählte Vokabular, Rollen, eignet sich gut dafür die Möglichkeiten von SKOS kennenzulernen ohne dabei den Rahmen dessen zu sprengen, was manuell möglich ist. Es handelt sich um einen mehrsprachigen Thesaurus - Mehrsprachigkeit ist in Luxemburg üblich - mit vielen Überschneidungen mit anderen Vokabularen, inklusive, natürlich, dem des Service des Musées de France.</p>
 
 ##Zusammenarbeit auf Github - Wie hat es funktioniert? Was wurde gelernt? Wo sind noch Probleme?
-<p>Die Zusammenarbeit auf Github lief ohne Probleme. Im Projektteam waren unterschiedliche Vorkenntnisse vorhanden, dennoch gelang der Einstieg und die ersten Schritte in Github allen Beteiligten. Für die Kommunikation wurde zoom sowie ein Messenger genutzt. Ein Kanban-Board kam nicht zum Einsatz. Die Grundfunktionen von Github wurden in den notwenigen Schritten des Projekts durchgeführt und erlernt: Benutzerkonto einrichten, Forken des Repos, Einladen und Hinzufügen von Teammitgliedern zum Projekt, Arbeit im Projekt, Speichern des Arbeitsfortschritts, </p>
+<p>Die Zusammenarbeit auf Github lief ohne Probleme. Im Projektteam waren unterschiedliche Vorkenntnisse vorhanden, dennoch gelang der Einstieg und die ersten Schritte in Github allen Beteiligten. Für die Kommunikation wurde zoom sowie ein Messenger genutzt. Ein Kanban-Board kam nicht zum Einsatz. Die Grundfunktionen von Github wurden in den notwenigen Schritten des Projekts durchgeführt und erlernt: Benutzerkonto einrichten, Forken des Repos, Einladen und Hinzufügen von Teammitgliedern zum Projekt, Arbeit im Projekt, Speichern des Arbeitsfortschritts, Veröffentlichung der Ergebnisse.</p>
 
-<p>##Probleme beim Einrichten des Repos? (Wie kann die Dokumentation verbessert werden?<p>
+<p>##Probleme beim Einrichten des Repos? (Wie kann die Dokumentation verbessert werden?</p>
+
 <p>##Verständnis von RDF und SKOS vor und nach der Bearbeitung?<p>
 <p>Vor Bearbeitung der Aufgabe nur wenig Kenntnisse im Bereich Linked open data, Kenntnisse von RDF und SKOS waren nicht vorhanden. Durch die Umsetzung des SKOS-Vokabulars wurde ein Grundverständnis für linked open data und den Nutzen kontrollierter Vokabulare für die Auffindbarkeit und Verbindung von Daten erlangt. Die praktische Anwendung ermöglichte eine intensive Auseinandersetzung mit dem Aufbau und den Anwendungsgebieten von RDF und SKOS.</p>
+
 <p>##Was wird durch die SKOS-Repräsentation des Vokabulars und seiner Publikation im Web gewonnen?</p>
-Das ausgewählte Vokabular soll dazu dienen die Rollen von Personen im Zusammenhang mit einem Objekt zu beschreiben. Die Rollenbezeichnungen sind in drei Sprachen angegeben: Französisch, Deutsch und Englisch. Genutzt wird das Vokabular für eine Museumsdatenbank in welcher alle luxemburgischen Museen zusammengeschlossen sind. Durch die Zuordnung von Wiki Data Nummern ist eine eindeutige Identifikation sowohl in menschlesbarer als auch maschinenlesbarer Form vorhanden. Bei Aktualisierung der Wiki Data Datensätze wird zudem auch das Vokabular aktuell gehalten.</p>
+
+<p>Das ausgewählte Vokabular soll dazu dienen die Rollen von Personen im Zusammenhang mit einem Objekt zu beschreiben. Die Rollenbezeichnungen sind in drei Sprachen angegeben: Französisch, Deutsch und Englisch. Genutzt wird das Vokabular für eine Museumsdatenbank in welcher alle luxemburgischen Museen zusammengeschlossen sind. Durch die Zuordnung von Wiki Data Nummern ist eine eindeutige Identifikation sowohl in menschlesbarer als auch maschinenlesbarer Form vorhanden. Bei Aktualisierung der Wiki Data Datensätze wird zudem auch das Vokabular aktuell gehalten.</p>
+
 <p>##Welche Anwendungsfälle gibt es?</p>
 
 <p>Im Verlauf des Projektes traten zwei Themen in den Vordergrund: **Lösungen für eine geschlechtergerechte Gestaltung des Vokabulars** sowie die **Einbindung von mit übersetzbaren Begriffen**. <p>
