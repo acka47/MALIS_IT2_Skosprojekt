@@ -8,9 +8,12 @@
 
 Leitfragen aus Aufgabenstellung:
 Zusammenarbeit auf Github - Wie hat es funktioniert? Was wurde gelernt? Wo sind noch Probleme?
-Die Zusammenarbeit auf Github lief reibungslos. Im Projektteam waren sehr unterschiedliche Vorkenntnisse vorhanden, dennoch gelang der Einstieg und die ersten Schritte in Github allen Beteiligten. Für die Kommunikation wurde zoom sowie ein Messenger genutzt. Ein Kanban-Board kam nicht zum Einsatz. Durch die Umsetzung des SKOS-Vokabulars wurde zudem ein Grundverständnis für linked open data und den Nutzen kontrollierter Vokabulare für die Auffindbarkeit und Verbindung von Daten erlangt. Durch diese praktische Anwendung wurden vertiefende Kenntnisse zum Aufbau von RDF und SKOS sowie die Anwendungsgebiete erworben. 
+Die Zusammenarbeit auf Github lief ohne Probleme. Im Projektteam waren unterschiedliche Vorkenntnisse vorhanden, dennoch gelang der Einstieg und die ersten Schritte in Github allen Beteiligten. Für die Kommunikation wurde zoom sowie ein Messenger genutzt. Ein Kanban-Board kam nicht zum Einsatz. Die Grundfunktionen von Github wurden in den notwenigen Schritten des Projekts durchgeführt und erlernt: Benutzerkonto einrichten, Forken des Repos, Einladen und Hinzufügen von Teammitgliedern zum Projekt, Arbeit im Projekt, Speichern des Arbeitsfortschritts, 
+
+Das ausgewählte Vokabular soll dazu dienen die Rollen von Personen im Zusammenhang mit einem Objekt zu beschreiben. Die Rollenbezeichnungen sind in drei Sprachen angegeben: Französisch, Deutsch und Englisch. 
 Probleme beim Einrichten des Repos? (Wie kann die Dokumentation verbessert werden?)
 Verständnis von RDF und SKOS vor und nach der Bearbeitung?
+Vor Bearbeitung der Aufgabe nur wenig Kenntnisse im Bereich Linked open data, Kenntnisse von RDF und SKOS waren nicht vorhanden. Durch die Umsetzung des SKOS-Vokabulars wurde ein Grundverständnis für linked open data und den Nutzen kontrollierter Vokabulare für die Auffindbarkeit und Verbindung von Daten erlangt. Die praktische Anwendung ermöglichte eine intensive Auseinandersetzung mit dem Aufbau und den Anwendungsgebieten von RDF und SKOS.
 Was wird durch die SKOS-Repräsentation des Vokabulars und seiner Publikation im Web gewonnen?
 Welche Anwendungsfälle gibt es?
 
