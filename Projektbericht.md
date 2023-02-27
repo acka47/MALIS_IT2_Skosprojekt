@@ -9,7 +9,7 @@
 ##Zusammenarbeit auf Github - Wie hat es funktioniert? Was wurde gelernt? Wo sind noch Probleme?
 <p>Die Zusammenarbeit auf Github lief ohne Probleme. Im Projektteam waren unterschiedliche Vorkenntnisse vorhanden, dennoch gelang der Einstieg und die ersten Schritte in Github allen Beteiligten. Für die Kommunikation wurde zoom sowie ein Messenger genutzt. Ein Kanban-Board kam nicht zum Einsatz. Die Grundfunktionen von Github wurden in den notwenigen Schritten des Projekts durchgeführt und erlernt: Benutzerkonto einrichten, Forken des Repos, Einladen und Hinzufügen von Teammitgliedern zum Projekt, Arbeit im Projekt, Speichern des Arbeitsfortschritts, Veröffentlichung der Ergebnisse.</p>
 
-<p>##Probleme beim Einrichten des Repos? (Wie kann die Dokumentation verbessert werden?</p>
+<p>##Probleme beim Einrichten des Repos? (Wie kann die Dokumentation verbessert werden?)</p>
 
 <p>##Verständnis von RDF und SKOS vor und nach der Bearbeitung?<p>
 <p>Vor Bearbeitung der Aufgabe nur wenig Kenntnisse im Bereich Linked open data, Kenntnisse von RDF und SKOS waren nicht vorhanden. Durch die Umsetzung des SKOS-Vokabulars wurde ein Grundverständnis für linked open data und den Nutzen kontrollierter Vokabulare für die Auffindbarkeit und Verbindung von Daten erlangt. Die praktische Anwendung ermöglichte eine intensive Auseinandersetzung mit dem Aufbau und den Anwendungsgebieten von RDF und SKOS.</p>
@@ -20,8 +20,8 @@
 
 <p>##Welche Anwendungsfälle gibt es?</p>
 
-<p>Im Verlauf des Projektes traten zwei Themen in den Vordergrund: **Lösungen für eine geschlechtergerechte Gestaltung des Vokabulars** sowie die **Einbindung von mit übersetzbaren Begriffen**. <p>
-<p>Die geschlechtergerechte Gestaltung von Prozessen ist ein Ziel der EU und soll durchgehend Anwendung finden. Während die geschlechtergerechte Sprache im Englischen kein Thema ist, wird es sowohl für Deutsch als auch für Französisch teilweise sehr kontrovers diskutiert. Während in Frankreich das schriftliche Gendern nicht erlaubt ist, wird es in Deutschland von der Regierung befürwortet und in Behörden etc. gebraucht. Das Gendern von Informationen, vor allem strukturierter Vokabulare wird ebenfalls diskutiert. Aktuell ist die weibliche oder genderneutrale Form in der Regel der männlichen Form untergeordnet bzw. beigeordnet z.B. über „also known as“ bei wikidata. Im Projekt bearbeiteten Vokabular wurde die gegenderte Form mit Sternchen als String eingebunden. Eine mögliche Lösung, welche die Gleichwertigkeit von Bezeichnungen schon innerhalb des Vokabulars ausdrückt, wäre eine einzelne Aufführung aller Formen mit einem zusätzlichen Tagging, welches das Geschlecht benennt.</p> 
+<p>Im Verlauf des Projektes traten zwei Themen in den Vordergrund: **Lösungen für eine geschlechtergerechte Gestaltung des Vokabulars** sowie die **Einbindung von  übersetzbaren Begriffen**. <p>
+<p>Die geschlechtergerechte Gestaltung von Prozessen ist ein Ziel der EU und soll durchgehend Anwendung finden. Während die geschlechtergerechte Sprache im Englischen kein Thema ist, wird es sowohl für Deutsch als auch für Französisch teilweise sehr kontrovers diskutiert. Während in Frankreich das schriftliche Gendern nicht erlaubt ist, wird es in Deutschland von der Regierung befürwortet und in Behörden etc. gebraucht. Das Gendern von Informationen, vor allem strukturierter Vokabulare, wird ebenfalls diskutiert. Aktuell ist die weibliche oder genderneutrale Form in der Regel der männlichen Form untergeordnet bzw. beigeordnet z.B. über „also known as“ bei Wikidata. Bei dem im Projekt bearbeiteten Vokabular wurde die gegenderte Form mit Sternchen als String eingebunden. Eine mögliche Lösung, welche die Gleichwertigkeit von Bezeichnungen schon innerhalb des Vokabulars ausdrückt, wäre eine einzelne Aufführung aller Formen mit einem zusätzlichen Tagging, welches das Geschlecht benennt.</p> 
 <p>Beispiel:</p>
 
 <p><Role/172141>
@@ -38,6 +38,6 @@
 
 <p>Eine neutrale Variante wäre hier ebenfalls denkbar. 
 Eine solche Lösung würde zwar einen größeren Aufwand bedeuten, dafür aber auch bessere Suchmöglichkeiten bieten, da auch weibliche Formen ohne Umweg gefunden werden. Ein Vorteil, wenn davon ausgegangen wird, dass in Zukunft auch die weiblichen Formen häufiger gesucht werden.
-Eine solche Änderungen in der Struktur müssten aber für alle Nutzenden beschlossen werden, da über die Vernetzung der Vokabulare einer einheitlichen Struktur folgen müssen, um Interoperabilität zu gewährleisten. Durch die sehr unterschiedlichen Ansätze in Umgang mit weiblichen, männlichen und geschlechtsneutralen Begriffen in Deutschland, Frankreich und England, ist eine solche Lösung zeitnah nicht zu erwarten. Der Diskurs zur geschlechtergerechten Sprache, ihre Möglichkeiten und Grenzen, ist noch lange nicht abgeschlossen und wird auch Auswirkungen auf die Gestaltung von datenbasierten Prozessen nehmen.</p>
+Eine solche Änderungen in der Struktur müssten aber für alle Nutzenden beschlossen werden, da über die Vernetzung der Vokabulare eine einheitliche Struktur folgen müsste, um Interoperabilität zu gewährleisten. Durch die sehr unterschiedlichen Ansätze im Umgang mit weiblichen, männlichen und geschlechtsneutralen Begriffen in Deutschland, Frankreich und England, ist eine solche Lösung zeitnah nicht zu erwarten. Der Diskurs zur geschlechtergerechten Sprache, ihre Möglichkeiten und Grenzen, ist noch lange nicht abgeschlossen und wird auch Auswirkungen auf die Gestaltung von datenbasierten Prozessen nehmen.</p>
 
 
