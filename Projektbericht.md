@@ -13,7 +13,7 @@
 <p>##Verständnis von RDF und SKOS vor und nach der Bearbeitung?<p>
 <p>Vor Bearbeitung der Aufgabe nur wenig Kenntnisse im Bereich Linked open data, Kenntnisse von RDF und SKOS waren nicht vorhanden. Durch die Umsetzung des SKOS-Vokabulars wurde ein Grundverständnis für linked open data und den Nutzen kontrollierter Vokabulare für die Auffindbarkeit und Verbindung von Daten erlangt. Die praktische Anwendung ermöglichte eine intensive Auseinandersetzung mit dem Aufbau und den Anwendungsgebieten von RDF und SKOS.</p>
 <p>##Was wird durch die SKOS-Repräsentation des Vokabulars und seiner Publikation im Web gewonnen?</p>
-Das ausgewählte Vokabular soll dazu dienen die Rollen von Personen im Zusammenhang mit einem Objekt zu beschreiben. Die Rollenbezeichnungen sind in drei Sprachen angegeben: Französisch, Deutsch und Englisch. Genutzt wird das Vokabular für eine Museumsdatenbank in welcher alle luxemburgischen Museen zusammengeschlossen sind. Durch die Zuordnung von Wiki Data Nummern ist eine eindeutige Identifikation sowohl in menschlesbarer als auch maschinenlesbarer Form vorhanden. Bei Aktualisierung der Wiki Data Datensätze wird zudem auch das Vokabular aktuell gehalten.
+Das ausgewählte Vokabular soll dazu dienen die Rollen von Personen im Zusammenhang mit einem Objekt zu beschreiben. Die Rollenbezeichnungen sind in drei Sprachen angegeben: Französisch, Deutsch und Englisch. Genutzt wird das Vokabular für eine Museumsdatenbank in welcher alle luxemburgischen Museen zusammengeschlossen sind. Durch die Zuordnung von Wiki Data Nummern ist eine eindeutige Identifikation sowohl in menschlesbarer als auch maschinenlesbarer Form vorhanden. Bei Aktualisierung der Wiki Data Datensätze wird zudem auch das Vokabular aktuell gehalten.</p>
 <p>##Welche Anwendungsfälle gibt es?</p>
 
 <p>Im Verlauf des Projektes traten zwei Themen in den Vordergrund: **Lösungen für eine geschlechtergerechte Gestaltung des Vokabulars** sowie die **Einbindung von mit übersetzbaren Begriffen**. <p>
@@ -30,7 +30,7 @@ Das ausgewählte Vokabular soll dazu dienen die Rollen von Personen im Zusammenh
         "Zeichner"@de,@mask
         "Zeichnerin"@de,@fem
         "Draughtsperson"@en ;
-    skos:closeMatch wikidata:<Q15296811> .<p>
+    skos:closeMatch wikidata:<Q15296811> .</p>
 
 <p>Eine neutrale Variante wäre hier ebenfalls denkbar. 
 Eine solche Lösung würde zwar einen größeren Aufwand bedeuten, dafür aber auch bessere Suchmöglichkeiten bieten, da auch weibliche Formen ohne Umweg gefunden werden. Ein Vorteil, wenn davon ausgegangen wird, dass in Zukunft auch die weiblichen Formen häufiger gesucht werden.
