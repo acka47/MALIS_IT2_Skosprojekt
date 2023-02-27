@@ -17,7 +17,7 @@ Das ausgewählte Vokabular soll dazu dienen die Rollen von Personen im Zusammenh
 Was wird durch die SKOS-Repräsentation des Vokabulars und seiner Publikation im Web gewonnen?
 Welche Anwendungsfälle gibt es?</p>
 
-<p>Im Verlauf des Projektes traten zwei Themen in den Vordergrund: ****Lösungen für eine geschlechtergerechte Gestaltung des Vokabulars sowie die Einbindung von mit übersetzbaren Begriffen.****</p>
+<p>Im Verlauf des Projektes traten zwei Themen in den Vordergrund: **Lösungen für eine geschlechtergerechte Gestaltung des Vokabulars** sowie die **Einbindung von mit übersetzbaren Begriffen**. </p>
 <p>Die geschlechtergerechte Gestaltung von Prozessen ist ein Ziel der EU und soll durchgehend Anwendung finden. Während die geschlechtergerechte Sprache im Englischen kein Thema ist, wird es sowohl für Deutsch als auch für Französisch teilweise sehr kontrovers diskutiert. Während in Frankreich das schriftliche Gendern nicht erlaubt ist, wird es in Deutschland von der Regierung befürwortet und in Behörden etc. gebraucht. Das Gendern von Informationen, vor allem strukturierter Vokabulare wird auch diskutiert. Aktuell ist die weibliche oder genderneutrale Form in der Regel der männlichen Form untergeordnet bzw. beigeordnet über „also known as“ bei wikidata. Im vorliegenden Vokabular wurde die gegenderte Form mit Sternchen als String verwendet. Eine mögliche Lösung, welche die Gleichwertigkeit von Bezeichnungen schon innerhalb des Vokabulars ausdrückt, wäre eine einzelne Aufführung aller Formen mit einem zusätzlichen Tagging, welches das Geschlecht benennt.</p> 
 <p>Beispiel:</p>
 
