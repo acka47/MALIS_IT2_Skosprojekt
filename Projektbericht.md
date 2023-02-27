@@ -9,15 +9,14 @@
 ##Zusammenarbeit auf Github - Wie hat es funktioniert? Was wurde gelernt? Wo sind noch Probleme?
 <p>Die Zusammenarbeit auf Github lief ohne Probleme. Im Projektteam waren unterschiedliche Vorkenntnisse vorhanden, dennoch gelang der Einstieg und die ersten Schritte in Github allen Beteiligten. Für die Kommunikation wurde zoom sowie ein Messenger genutzt. Ein Kanban-Board kam nicht zum Einsatz. Die Grundfunktionen von Github wurden in den notwenigen Schritten des Projekts durchgeführt und erlernt: Benutzerkonto einrichten, Forken des Repos, Einladen und Hinzufügen von Teammitgliedern zum Projekt, Arbeit im Projekt, Speichern des Arbeitsfortschritts, </p>
 
-Das ausgewählte Vokabular soll dazu dienen die Rollen von Personen im Zusammenhang mit einem Objekt zu beschreiben. Die Rollenbezeichnungen sind in drei Sprachen angegeben: Französisch, Deutsch und Englisch. 
-
-##Probleme beim Einrichten des Repos? (Wie kann die Dokumentation verbessert werden?
-##Verständnis von RDF und SKOS vor und nach der Bearbeitung?
+<p>##Probleme beim Einrichten des Repos? (Wie kann die Dokumentation verbessert werden?<p>
+<p>##Verständnis von RDF und SKOS vor und nach der Bearbeitung?<p>
 <p>Vor Bearbeitung der Aufgabe nur wenig Kenntnisse im Bereich Linked open data, Kenntnisse von RDF und SKOS waren nicht vorhanden. Durch die Umsetzung des SKOS-Vokabulars wurde ein Grundverständnis für linked open data und den Nutzen kontrollierter Vokabulare für die Auffindbarkeit und Verbindung von Daten erlangt. Die praktische Anwendung ermöglichte eine intensive Auseinandersetzung mit dem Aufbau und den Anwendungsgebieten von RDF und SKOS.</p>
 <p>##Was wird durch die SKOS-Repräsentation des Vokabulars und seiner Publikation im Web gewonnen?</p>
+Das ausgewählte Vokabular soll dazu dienen die Rollen von Personen im Zusammenhang mit einem Objekt zu beschreiben. Die Rollenbezeichnungen sind in drei Sprachen angegeben: Französisch, Deutsch und Englisch. Genutzt wird das Vokabular für eine Museumsdatenbank in welcher alle luxemburgischen Museen zusammengeschlossen sind. Durch die Zuordnung von Wiki Data Nummern ist eine eindeutige Identifikation sowohl in menschlesbarer als auch maschinenlesbarer Form vorhanden. Bei Aktualisierung der Wiki Data Datensätze wird zudem auch das Vokabular aktuell gehalten.
 <p>##Welche Anwendungsfälle gibt es?</p>
 
-<p>Im Verlauf des Projektes traten zwei Themen in den Vordergrund: **Lösungen für eine geschlechtergerechte Gestaltung des Vokabulars** sowie die **Einbindung von mit übersetzbaren Begriffen**. </p>
+<p>Im Verlauf des Projektes traten zwei Themen in den Vordergrund: **Lösungen für eine geschlechtergerechte Gestaltung des Vokabulars** sowie die **Einbindung von mit übersetzbaren Begriffen**. <p>
 <p>Die geschlechtergerechte Gestaltung von Prozessen ist ein Ziel der EU und soll durchgehend Anwendung finden. Während die geschlechtergerechte Sprache im Englischen kein Thema ist, wird es sowohl für Deutsch als auch für Französisch teilweise sehr kontrovers diskutiert. Während in Frankreich das schriftliche Gendern nicht erlaubt ist, wird es in Deutschland von der Regierung befürwortet und in Behörden etc. gebraucht. Das Gendern von Informationen, vor allem strukturierter Vokabulare wird ebenfalls diskutiert. Aktuell ist die weibliche oder genderneutrale Form in der Regel der männlichen Form untergeordnet bzw. beigeordnet z.B. über „also known as“ bei wikidata. Im Projekt bearbeiteten Vokabular wurde die gegenderte Form mit Sternchen als String eingebunden. Eine mögliche Lösung, welche die Gleichwertigkeit von Bezeichnungen schon innerhalb des Vokabulars ausdrückt, wäre eine einzelne Aufführung aller Formen mit einem zusätzlichen Tagging, welches das Geschlecht benennt.</p> 
 <p>Beispiel:</p>
 
