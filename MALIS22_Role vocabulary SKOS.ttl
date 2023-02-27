@@ -18,7 +18,7 @@
         "Rôle"@fr, 
         "Rolle"@de, 
         "Role"@en ;
-    skos:narrower <Role/172121> 
+    skos:narrower <Role/172121> ;
     skos:editorialNote "Die in diesem Vokabular integrierten Begriffe beziehen sich auf die Rolle, die ein Akteur in Beziehung zu einem Objekt gehabt hat. Nicht allgemein um z.B. Aktivitäten, die ein Akteur wärend seiner Existenz ausgeführt hat."@de .
 
 <Role/172121>
@@ -67,7 +67,7 @@
         "Waffenschmied*in"@de, 
         "Armourer"@en ;
     skos:altLabel "Armorer"@en ;
-    skos:exactMatch joconde:<67717/?idc=T513-32796&idt=th80>
+    skos:exactMatch joconde:<67717/?idc=T513-32796&idt=th80> ;
     skos:closeMatch wikidata:<Q1371796> .
 
 <Role/172415>
