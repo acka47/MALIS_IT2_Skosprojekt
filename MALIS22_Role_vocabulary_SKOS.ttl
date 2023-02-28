@@ -1,0 +1,222 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix joconde: <http://data.culture.fr/thesaurus/resource/ark:/> .
+@prefix wikidata: <https://www.wikidata.org/entitiy/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <http://example.org/MUSEONETVocab/>.
+
+#Da das Vokabular noch nicht auf einer öffentlich zugänglichen Plattform existiert wird hier das example Domain verwendet.
+#Sobald das Vokabular veröffentlicht wird, soll dieses durch die tatsächliche URI ersetzt werden.
+<Role>
+    a skos:ConceptScheme ;
+    dct:title 
+        "MUSEONET Role Vocabulary"@en, 
+        "MUSEONET Rollenvokabular"@de,
+        "MUSEONET Vocabulaire Rôles"@fr ;
+    dct:creator "Elin Gleißberg"@de ;
+    dct:creator "Edurne Kugeler"@de ;
+    dct:creator "Hannah Metzler"@de ;
+    dct:created "2023-02-27"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <Role/30472> .
+
+<Role/30472>
+    a skos:Concept ;
+    skos:prefLabel 
+        "Rôle"@fr, 
+        "Rolle"@de, 
+        "Role"@en ;
+    skos:narrower <Role/172121> ;
+    skos:editorialNote "Die in diesem Vokabular integrierten Begriffe beziehen sich auf die Rolle, die ein Akteur in Beziehung zu einem Objekt gehabt hat. Nicht allgemein um z.B. Aktivitäten, die ein Akteur wärend seiner Existenz ausgeführt hat."@de ;
+    skos:TopConceptOf <Role> .
+
+#Hier wurde closeMatch statt exactMatch ausgewählt, da der Begriff bei Wikidata als instance of profession (Beruf) verstanden wird, nicht als Rolle in Bezug auf ein Objekt.
+<Role/172121>
+    a skos:Concept ;
+    skos:inScheme <Role> ; 
+    skos:broader <Role/30472> ;
+    skos:narrower <Role/172157> ;
+    skos:exactMatch <http://data.culture.fr/thesaurus/resource/ark:/67717/?idc=T513-35707&idt=th80> ;
+    skos:closeMatch <https://www.wikidata.org/entity/Q3621491> ;
+    skos:definition 
+        "Personne en relation avec la trouvaille d'un objet"@fr, 
+        "Person, die in Beziehung zu dem Fund eines Objektes steht"@de, 
+        "Person in relation to the finding of an object"@en ;
+   skos:prefLabel 
+        "Archéologue"@fr, 
+        "Archäologe*in"@de, 
+        "Archaeologist"@en .
+
+<Role/172157>
+    a skos:Concept ;
+    skos:inScheme <Role> ; 
+    skos:broader <Role/172121> ;
+    skos:prefLabel 
+        "Dirigeant.e de fouille"@fr, 
+        "Ausgrabungsleiter*in"@de, 
+        "Dig leader"@en .
+
+<Role/172122>
+    a skos:Concept ;
+    skos:inScheme <Role> ; 
+    skos:broader <Role/30472> ;
+    skos:prefLabel 
+        "Architecte"@fr, 
+        "Architekt*in"@de, 
+        "Architect"@en ;
+    skos:exactMatch <http://data.culture.fr/thesaurus/resource/ark:/67717/?idc=T513-32793&idt=th80> ;
+    skos:closeMatch <https://www.wikidata.org/entity/Q42973> .
+
+<Role/245186>
+    a skos:Concept ;
+    skos:inScheme <Role> ; 
+    skos:broader <Role/30472> ;
+    skos:prefLabel 
+        "Armurier"@fr, 
+        "Waffenschmied*in"@de, 
+        "Armourer"@en ;
+    skos:altLabel "Armorer"@en ;
+    skos:exactMatch <http://data.culture.fr/thesaurus/resource/ark:/67717/?idc=T513-32796&idt=th80> ;
+    skos:closeMatch <https://www.wikidata.org/entity/Q1371796> .
+
+<Role/172415>
+    a skos:Concept ;
+    skos:inScheme <Role> ; 
+    skos:broader <Role/30472> ;
+    skos:narrower 
+        <Role/172141>,
+        <Role/172241> ;
+    skos:prefLabel 
+        "Artiste"@fr, 
+        "Künstler*in"@de, 
+        "Artist"@en ;
+    skos:closeMatch <https://www.wikidata.org/entity/Q15296811> .
+
+<Role/172141>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role/172415> ;
+    skos:prefLabel
+        "Dessinateur.rice"@fr,
+        "Zeichner*in"@de,
+        "Draughtsperson"@en ;
+    skos:closeMatch <https://www.wikidata.org/entity/Q15296811> .
+
+<Role/172241>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role/172415> ;
+    skos:prefLabel
+        "Peintre"@fr,
+        "Maler*in"@de,
+        "Painter"@en ;
+    skos:closeMatch <https://www.wikidata.org/entity/Q1028181> .
+
+<Role/172274>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role/30472> ;
+    skos:prefLabel
+        "Sculpteur.rice"@fr,
+        "Bildhauer*in"@de,
+        "Sculptor"@en .
+
+<Role/255869>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role/30472> ;
+    skos:prefLabel
+        "Atelier monétaire"@fr,
+        "Münzwerkstatt"@de,
+        "Mint"@en ;
+    skos:closeMatch <https://www.wikidata.org/entity/Q464780> .
+
+<Role/172128>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role/30472> ;
+    skos:prefLabel
+        "Auteur.rice"@fr,
+        "Autor*in"@de,
+        "Author"@en ;
+    skos:closeMatch <https://www.wikidata.org/entity/Q482980> .
+
+<Role/218999>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role/30472> ;
+    skos:prefLabel
+        "Autorité émettrice"@fr,
+        "Ausstellende Einheit"@de,
+        "Issuing authority"@en .
+
+<Role/254902>
+    a skos:Concept ;
+    skos:inScheme <Role> ;
+    skos:broader <Role/30472> ;
+    skos:prefLabel
+        "Brodeur.euse"@fr,
+        "Sticker*in"@de,
+        "Embroiderer"@en ;
+    skos:closeMatch <https://www.wikidata.org/entity/Q1509440> .
+
+<Role/172131>
+     a skos:Concept ;
+     skos:inScheme <Role> ;
+     skos:broader <Role/30472> ;
+     skos:prefLabel
+         "Cartographe"@fr,
+         "Kartograph*in"@de,
+         "Cartographer"@en ;
+     skos:closeMatch <https://www.wikidata.org/entity/Q1734662> .
+
+<Role/214980>
+     a skos:Concept ;
+     skos:inScheme <Role> ;
+     skos:broader <Role/30472> ;
+     skos:prefLabel
+         "Commandataire.rice"@fr,
+         "Auftraggeber*in"@de,
+         "Contracting authority"@en ;
+     skos:closeMatch <http://www.wikidata.org/entity/Q760086> .
+
+<Role/253201>
+     a skos:Concept ;
+     skos:inScheme <Role> ;
+     skos:broader <Role/30472> ;
+     skos:prefLabel
+         "Compositeur.rice"@fr,
+         "Komponist*in"@de,
+         "Composer"@en ;
+     skos:closeMatch <https://www.wikidata.org/entity/Q36834> .
+  
+<Role/248039>
+     a skos:Concept ;
+     skos:inScheme <Role> ;
+     skos:broader <Role/30472> ;
+     skos:prefLabel
+         "Confiseur.se"@fr,
+         "Zuckerbäcker*in"@de,
+         "Confectioner"@en ;
+     skos:closeMatch <https://www.wikidata.org/entity/Q2992505> .
+
+<Role/236429>
+     a skos:Concept ;
+     skos:inScheme <Role> ;
+     skos:broader <Role/30472> ;
+     skos:prefLabel
+         "Décorateur.rice"@fr,
+         "Dekorateur*in"@de,
+         "Decorator"@en ;
+     skos:closeMatch <https://www.wikidata.org/entity/Q22811707> .
+
+<Role/172140>
+     a skos:Concept ;
+     skos:inScheme <Role> ;
+     skos:broader <Role/30472> ;
+     skos:prefLabel
+         "Designer"@fr,
+         "Entwerfer*in"@de,
+         "Designer"@en ;
+     skos:closeMatch <https://www.wikidata.org/entity/Q5322166> .
