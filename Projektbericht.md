@@ -41,17 +41,17 @@
 <p>Die geschlechtergerechte Gestaltung von Prozessen ist ein Ziel der EU und soll durchgehend Anwendung finden. Während die geschlechtergerechte Sprache im Englischen kein Thema ist, wird es sowohl für Deutsch als auch für Französisch teilweise sehr kontrovers diskutiert. Während in Frankreich das schriftliche Gendern nicht erlaubt ist, wird es in Deutschland von der Regierung befürwortet und in Behörden etc. gebraucht. Das Gendern von Informationen, vor allem strukturierter Vokabulare wird ebenfalls diskutiert. Aktuell ist die weibliche oder genderneutrale Form in der Regel der männlichen Form untergeordnet bzw. beigeordnet z.B. über „also known as“ bei Wikidata. Im Projekt bearbeiteten Vokabular wurde die gegenderte Form mit Sternchen als String eingebunden. Eine mögliche Lösung, welche die Gleichwertigkeit von Bezeichnungen schon innerhalb des Vokabulars ausdrückt, wäre eine einzelne Aufführung aller Formen mit einem zusätzlichen Tagging, welches das Geschlecht benennt.</p> 
 <p>Beispiel:</p>
 
-<p><Role/172141>
-    a skos:Concept ;
-    skos:inScheme <Role> ;
-    skos:broader <Role172415> ;
-    skos:prefLabel
-        "Dessinateur"@fr,@mask
-        "Dessinateurice"@fr,@fem
-        "Zeichner"@de,@mask
-        "Zeichnerin"@de,@fem
-        "Draughtsperson"@en ;
-    skos:closeMatch wikidata:<Q15296811> .</p>
+<p> <Role/172141> </p>
+<p>     a skos:Concept ; </p>
+<p>     skos:inScheme <Role> ; </p>
+<p>     skos:broader <Role172415> ; </p>
+<p>     skos:prefLabel </p>
+<p>         "Dessinateur"@fr,@mask </p>
+<p>         "Dessinatrice"@fr,@fem </p>
+<p>         "Zeichner"@de,@mask </p>
+<p>         "Zeichnerin"@de,@fem </p>
+<p>         "Draughtsperson"@en ; </p>
+<p>     skos:closeMatch wikidata:<Q15296811> .</p>
 
 <p>Eine neutrale Variante wäre hier ebenfalls denkbar. 
 Eine solche Lösung würde zwar einen größeren Aufwand bedeuten, dafür aber auch bessere Suchmöglichkeiten bieten, da auch weibliche Formen ohne Umweg gefunden werden könnten. Ein Vorteil, wenn davon ausgegangen wird, dass in Zukunft auch die weiblichen Formen häufiger gesucht werden.
